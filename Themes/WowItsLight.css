@@ -175,10 +175,10 @@ div.pages a.selected {
 }
 hr {
 	height: 1px;
-	border: #efefef 1px solid;
+	border: #e0e0e0 1px solid;
 }
 div.boardlist {
-	color: #e6e6e6;
+	color: #e0e0e0;
     background-color: rgba(230, 230, 230, .1);
 }
 .boardlist {
@@ -186,7 +186,7 @@ div.boardlist {
   	margin-bottom: 24px !important;
 }
 div.boardlist a{
-	color: #e6e6e6;
+	color: #e0e0e0;
     background-color: rgba(230, 230, 230, .1);
 }
 div.ban {
