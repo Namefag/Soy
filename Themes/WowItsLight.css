@@ -51,16 +51,16 @@ a:link:hover, a:visited:hover {
 
 }
 a.post_no {
-	color: #AAAAAA;
+	color: #333;
 	text-decoration: none;
 }
 a.post_no:hover {
-	color: #D3D3D3 !important;
+	color: #666 !important;
 	text-decoration: underline overline;
 }
 div.post.reply {
 	position: relative;
-	background: #efefef;
+	background: rgba(200, 200, 200, 0.25);
 	border: #ddd 1px solid;
         -webkit-border-radius: 2px;
         -khtml-border-radius: 2px;
@@ -69,7 +69,7 @@ div.post.reply {
 	box-shadow: 0 0 3px #444444;
 
 }
-div.post.reply::before {
+div.post.reply.highlighted::before, div.post.reply.post-hover::before {
   content: '';
   position: absolute;
   top: 0px;
@@ -83,6 +83,9 @@ div.post.reply::before {
 div.post.reply.highlighted {
 	background: #efefef;
 	border: transparent 1px solid;
+}
+div.post.reply.post-hover {
+	background: rgba(200, 200, 200, 0.65);
 }
 div.post.reply div.body a:link, div.post.reply div.body a:visited {
 	color: #111;
@@ -178,18 +181,29 @@ hr {
 	border: #e0e0e0 1px solid;
 }
 div.boardlist {
-	color: #dedede;
-    background-color: rgba(55, 55, 55, 0.1);
+	color: #efefef;
+    background-color: rgba(55, 55, 55, 0.0);
 }
 .boardlist {
 	text-align: center !important;
   	margin-bottom: 24px !important;
 }
 div.boardlist a{
-	color: #efefef;
-    background-color: rgba(115, 115, 115, 0.1);
+	color: #dedede;
+    background-color: rgba(115, 115, 115, 0);
 }
-
+div.boardlist a:hover{
+	color: #fefefe;
+}
+div.boardlist.bottom {
+	color: #555
+}
+div.boardlist.bottom a{
+	color: #333
+}
+div.boardlist.bottom a:hover{
+	color:#666
+}
 div.ban {
 	background-color: transparent;
 	border: transparent 0px solid;
@@ -205,8 +219,8 @@ table.modlog tr th {
 }
 
 .desktop-style div.boardlist:not(.bottom) {
-  text-shadow: black 1px 1px 1px, black -1px -1px 1px, black -1px 1px 1px, black 1px -1px 1px;
-  background-color: #efefef;
+  text-shadow: #333 1px 1px 1px, #333 -1px -1px 1px, #333 -1px 1px 1px, #333 1px -1px 1px;
+  background-color: rgba(230,230,230, 0.65);
 }
 
 
