@@ -1,0 +1,235 @@
+/*
+ * Wow's "Better"Light
+ * Version: 1.1
+ * Original: mix/wow/Glisterald, Mustard, Circlepuller, 
+ * Contributors: mix/wow/Glisterald
+ */
+
+ html, body {
+    height: 100%;
+    margin: 0;
+    min-height: 100vh;
+}
+body {
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAQAAAC1QeVaAAAASElEQVQY02NgQALS/5F5Ssg8qa/IUgooUg+QpWRRpA7hNB5VCsV4VANReKjOQDWDgYFIm/G4F7cv8YSNLG4pFCNQeSjq0MwAAPCoHW3Q0Dt9AAAAAElFTkSuQmCC"), linear-gradient(#f2f3f7, #ebecf2);
+    background-attachment: fixed;
+	background-blend-mode: color-dodge;
+	color: #333;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 12px;
+}
+span.quote {
+    color:#97c22c;
+}
+header div.subtitle,
+h1 {
+	color: #333333;
+	text-align: center;
+}	
+h1 {
+	font-family: tahoma;
+	font-size: 20pt;
+	text-align: center;
+	letter-spacing: -2px;
+}
+div.title, h1 {
+	color: #444444;
+	font-family: Arial, Helvetica, sans-serif;
+}
+div.title p {
+	font-size: 10px;
+}
+a:link, a:visited, .intro a.email span.name {
+	color: #111;
+	text-decoration: none;
+
+}
+a:link:hover, a:visited:hover {
+	color: #555;
+
+	text-decoration: none;
+
+}
+a.post_no {
+	color: #AAAAAA;
+	text-decoration: none;
+}
+a.post_no:hover {
+	color: #D3D3D3 !important;
+	text-decoration: underline overline;
+}
+div.post.reply {
+	position: relative;
+	background: #efefef;
+	border: #ddd 1px solid;
+        -webkit-border-radius: 2px;
+        -khtml-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+	box-shadow: 0 0 3px #444444;
+
+}
+div.post.reply::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0;
+  bottom: 0px;
+  width: 4px;
+  background: #333;
+  opacity: 0.7;
+}
+
+div.post.reply.highlighted {
+	background: #efefef;
+	border: transparent 1px solid;
+}
+div.post.reply div.body a:link, div.post.reply div.body a:visited {
+	color: #111;
+}
+div.post.reply div.body a:link:hover, div.post.reply div.body a:visited:hover {
+	color: #555;
+}
+.intro span.subject {
+	font-size: 12px;
+	color: #555;
+	font-weight: bold;
+}
+.intro span.name {
+	color: #333333;
+	font-weight: bold;
+}
+.intro a.capcode, p.intro a.nametag {
+	color: magenta;
+	margin-left: 0;
+}
+.intro a.email, p.intro a.email span.name, p.intro a.email:hover, p.intro a.email:hover span.name {
+	color: #efefef;
+}
+input[type="text"], textarea, select {
+	background: #fff;
+	color: #333;
+	border: #666666 1px solid;
+	padding-left: 5px;
+	padding-right: -5px;
+	font-size: 10pt;
+}
+input[type="password"] {
+	background: #fff;
+	color: #333;
+	border: #666666 1px solid;
+}
+form table tr th {
+	background: rgba(224, 224, 224, .45);
+	color: #333;
+	border: 0px solid #858585;
+	font-weight: bold;
+	text-align: center;
+	padding: 0;
+	border-radius: 2px;
+}
+div.banner {
+	background: #efefef;
+	color: #000;
+	text-align: center;
+	font-weight:bold;
+	width: 250px;
+	padding: 4px;
+	padding-left: 12px;
+	padding-right: 12px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 12px;
+}
+div.banner a {
+    color:#000;
+}
+input[type="submit"], input[type="button"] {
+	background: #ddd;
+	border: #888888 1px solid;
+	color: #111;
+}
+input[type="submit"]:hover, input[type="button"]:hover {
+	background: #efefef;
+	border: #888888 1px solid;
+	color: #555;
+}
+input[type="text"]:focus {
+    border:#aaa 1px solid;
+}
+p.fileinfo a:hover {
+	text-decoration: underline;
+}
+span.trip {
+	color: #AAAAAA;
+}
+div.pages {
+	color: #AAAAAA;
+	background: #333333;
+	border: #666666 1px solid;
+	font-family: sans-serif;
+	font-size: 10pt;
+}
+div.pages a.selected {
+	color: #CCCCCC;
+}
+hr {
+	height: 1px;
+	border: #efefef 1px solid;
+}
+div.boardlist {
+	color: #e6e6e6;
+    background-color: rgba(230, 230, 230, .1);
+}
+.boardlist {
+	text-align: center !important;
+  	margin-bottom: 24px !important;
+}
+div.boardlist a{
+	color: #e6e6e6;
+    background-color: rgba(230, 230, 230, .1);
+}
+div.ban {
+	background-color: transparent;
+	border: transparent 0px solid;
+}
+div.ban h2 {
+	background: transparent;
+	color: white;
+	font-size: 12px;
+}
+table.modlog tr th {
+	background: #efefef;
+	color: #AAAAAA;
+}
+
+.desktop-style div.boardlist:not(.bottom) {
+  text-shadow: black 1px 1px 1px, black -1px -1px 1px, black -1px 1px 1px, black 1px -1px 1px;
+  background-color: #efefef;
+}
+
+
+.desktop-style div.boardlist:not(.bottom):hover, .desktop-style div.boardlist:not(.bottom).cb-menu {
+  background-color: rgba(230,230,230, 0.65);
+}
+
+div.report {
+	color: #666666;
+}
+
+/* options.js */
+#options_div, #alert_div {
+	background: #efefef;
+}
+.options_tab_icon {
+	color: #111;
+}
+.options_tab_icon.active {
+	color: #555;
+}
+
+#quick-reply table {
+	background: none repeat scroll 0% 0% #efefef !important;
+}
+
+/* Thank you for using this theme! */
