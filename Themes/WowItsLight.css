@@ -178,17 +178,18 @@ hr {
 	border: #e0e0e0 1px solid;
 }
 div.boardlist {
-	color: #e0e0e0;
-    background-color: rgba(230, 230, 230, .1);
+	color: #dedede;
+    background-color: rgba(55, 55, 55, 0.1);
 }
 .boardlist {
 	text-align: center !important;
   	margin-bottom: 24px !important;
 }
 div.boardlist a{
-	color: #e0e0e0;
-    background-color: rgba(230, 230, 230, .1);
+	color: #efefef;
+    background-color: rgba(115, 115, 115, 0.1);
 }
+
 div.ban {
 	background-color: transparent;
 	border: transparent 0px solid;
