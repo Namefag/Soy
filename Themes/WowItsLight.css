@@ -1,5 +1,5 @@
 /*
- * Wow's "Better"Light
+ * Wow's "Better" Light
  * Version: 1.1
  * Original: mix/wow/Glisterald, Mustard, Circlepuller, whoever made Proton.css
  * Contributors: mix/wow/Glisterald
@@ -104,7 +104,7 @@ div.post.reply div.body a:link:hover, div.post.reply div.body a:visited:hover {
 	margin-left: 0;
 }
 .intro a.email, p.intro a.email span.name, p.intro a.email:hover, p.intro a.email:hover span.name {
-	color: #efefef;
+	color: #555;
 }
 input[type="text"], textarea, select {
 	background: #fff;
