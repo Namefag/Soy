@@ -6,4 +6,3 @@ This is a repository for **all Soy-related projects** created by me, such as cus
 * Wow's "Better" Light - a fork of Wow's "Better" Dark, styled more like Photon and Gentoochan, and more things added on to Better Dark.
 
 ## Userscripts/JS
-* File Approval + Report Queue Buttons - Joons only.
